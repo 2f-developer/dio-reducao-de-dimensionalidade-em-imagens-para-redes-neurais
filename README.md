@@ -40,7 +40,7 @@ from reducao import para_cinza, binarizar
 from reducao.imagem import carregar
 
 cinza = para_cinza(carregar("foto.jpg"))
-pb = binarizar(cinza)          # Otsu
+pb = binarizar(cinza)  # Otsu
 pb128 = binarizar(cinza, 128)  # limiar fixo
 ```
 
